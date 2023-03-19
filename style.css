@@ -1,15 +1,14 @@
 body {
   background: #050b2b;
-  background: linear-gradient(45deg, #050b2b, #230740, #050b2b, #230740);
+  background: linear-gradient(45deg, #050b2b, #161640, #050b2b, #161640);
   background-size: 400% 400%;
-  -webkit-animation: gradient 8s linear infinite;
-          animation: gradient 8s linear infinite;
+  -webkit-animation: gradient 9s linear infinite;
+          animation: gradient 9s linear infinite;
   height: 100vh;
   color: #fff;
   font-family: "Comfortaa", serif;
-  font-size: 16px;
   text-align: center;
-  padding: 0 2%;
+  padding: 0 4%;
 }
 
 @-webkit-keyframes gradient {
@@ -29,7 +28,6 @@ body {
     background-position: 15% 100%;
   }
 }
-
 .wrapper {
   position: relative;
   top: 50%;
@@ -37,7 +35,7 @@ body {
   transform: translate(-50%, -50%);
   width: 100%;
   height: auto;
-  padding: 30px 0;
+  padding: 2rem 0;
 }
 
 #teaser {
@@ -46,6 +44,7 @@ body {
   -webkit-animation: 1s linear forwards reveal;
           animation: 1s linear forwards reveal;
 }
+
 @-webkit-keyframes reveal {
   from {
     filter: blur(5px);
@@ -54,6 +53,7 @@ body {
     filter: blur(0px);
   }
 }
+
 @keyframes reveal {
   from {
     filter: blur(5px);
@@ -62,16 +62,18 @@ body {
     filter: blur(0px);
   }
 }
-
 h1 {
-  font-size: 48px;
+  font-size: 3rem;
   letter-spacing: 0.2em;
 }
+
 p {
-  margin: 72px 0 0;
+  margin: 4.5rem 0 0;
+  font-size: 1.05rem;
 }
+
 #author {
-  color: #019ae0;
+  color: #008dd3;
   margin-left: 10px;
 }
 
@@ -82,6 +84,7 @@ svg {
   -webkit-animation: 120s rotate linear infinite;
           animation: 120s rotate linear infinite;
 }
+
 circle {
   cx: 120px;
   cy: 120px;
@@ -91,24 +94,27 @@ circle {
   -webkit-animation: 2s circle ease 1;
           animation: 2s circle ease 1;
 }
+
 .circle-1 {
-  stroke: #0589d4;
+  stroke: #007fbe;
 }
+
 .circle-2 {
-  stroke: #91d7f2;
+  stroke: #38b6f5;
   -webkit-animation: 3s circle-color infinite alternate;
           animation: 3s circle-color infinite alternate;
 }
+
 .circle-3 {
   stroke: #2ea9e6;
 }
-.circle-4 {
-}
+
 .circle-5 {
-  stroke: #0589d4;
+  stroke: #007fbe;
 }
+
 .circle-6 {
-  stroke: #0071c2;
+  stroke: #0078b3;
 }
 
 @-webkit-keyframes rotate {
@@ -134,17 +140,17 @@ circle {
 }
 @-webkit-keyframes circle-color {
   20% {
-    stroke: #b9d7e7;
+    stroke: #a5cde1;
   }
   100% {
-    stroke: #b9d7e7;
+    stroke: #a5cde1;
   }
 }
 @keyframes circle-color {
   20% {
-    stroke: #b9d7e7;
+    stroke: #a5cde1;
   }
   100% {
-    stroke: #b9d7e7;
+    stroke: #a5cde1;
   }
 }
