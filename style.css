@@ -1,6 +1,6 @@
 body {
   background: #050b2b;
-  background: linear-gradient(45deg, #050b2b, #161640, #050b2b, #161640);
+  background: linear-gradient(45deg, #050b2b, #230740, #050b2b, #230740);
   background-size: 400% 400%;
   -webkit-animation: gradient 9s linear infinite;
           animation: gradient 9s linear infinite;
